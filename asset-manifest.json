@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.20662053.css",
-    "main.js": "/static/js/main.0dfb1afa.js",
-    "static/js/787.d92a5888.chunk.js": "/static/js/787.d92a5888.chunk.js",
-    "index.html": "/index.html",
-    "main.20662053.css.map": "/static/css/main.20662053.css.map",
-    "main.0dfb1afa.js.map": "/static/js/main.0dfb1afa.js.map",
-    "787.d92a5888.chunk.js.map": "/static/js/787.d92a5888.chunk.js.map"
+    "main.css": "/react-hooks-context-use-effect/static/css/main.20662053.css",
+    "main.js": "/react-hooks-context-use-effect/static/js/main.c574163b.js",
+    "static/js/787.d92a5888.chunk.js": "/react-hooks-context-use-effect/static/js/787.d92a5888.chunk.js",
+    "index.html": "/react-hooks-context-use-effect/index.html",
+    "main.20662053.css.map": "/react-hooks-context-use-effect/static/css/main.20662053.css.map",
+    "main.c574163b.js.map": "/react-hooks-context-use-effect/static/js/main.c574163b.js.map",
+    "787.d92a5888.chunk.js.map": "/react-hooks-context-use-effect/static/js/787.d92a5888.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.20662053.css",
-    "static/js/main.0dfb1afa.js"
+    "static/js/main.c574163b.js"
   ]
 }
