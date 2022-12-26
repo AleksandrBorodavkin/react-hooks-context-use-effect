@@ -1,15 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import useJsonFetch from '../hooks/useJsonFetch';
-import LoaderCentered from './LoaderCentered';
 import Error from './Error';
+import BorderLoading from "./BorderLoading";
 
 function List({ findUser }) {
   const [data, isLoading, error] = useJsonFetch(`${process.env.REACT_APP_DATA_URL}users.json`);
 
   return (
     <>
-      { isLoading && <LoaderCentered />}
+      { isLoading && <BorderLoading />}
       { error && <Error /> }
       { !isLoading && data && (
         <ul className="List">
