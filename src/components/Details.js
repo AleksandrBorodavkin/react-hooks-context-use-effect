@@ -1,15 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import useJsonFetch from '../hooks/useJsonFetch';
-import LoaderCentered from './LoaderCentered';
 import Error from './Error';
+import BorderLoading from "./BorderLoading";
 
 function Details({ info }) {
   const [data, isLoading, error] = useJsonFetch(`${process.env.REACT_APP_DATA_URL}${info.id}.json`);
 
   return (
     <>
-      { isLoading && <LoaderCentered /> }
+      { isLoading && <BorderLoading /> }
       { error && <Error /> }
       { !isLoading && data && (
         <div className="Details">
